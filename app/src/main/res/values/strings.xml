@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android115</string>
+    <string name="btnStart">Start</string>
+    <string name="btnEdit">Edit</string>
+    <string name="btnAnswer">SHOW ANSWER</string>
+    <string name="btnPrev">PREV</string>
+    <string name="btnNext">NEXT</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnClose">Close</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestActivity">
+
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="問目"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="apple"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAnswer" />
+
+    <TextView
+        android:id="@+id/txtjapanese"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="りんご"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPrev"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnPrev" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnNext" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/closebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLOSE" />
+</LinearLayout>
